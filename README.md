@@ -51,3 +51,7 @@ We are based in West Lafayette, Indiana, but are available for consultation glob
 ## FAQ
 
 For detailed answers to common questions, please visit the [FAQ section](faq.html) on our website.
+
+
+Created by [John Litzsinger](https://www.linkedin.com/in/johnlitzsinger)
+Hosted by [Nate Hughes](https://www.linkedin.com/in/nate-hughes-948664250/)
