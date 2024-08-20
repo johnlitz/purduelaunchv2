@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            background-color: #FFF7E0; /* Light gold background */
+            color: #856404; /* Dark gold text color */
+        }
+        .login-container {
+            max-width: 300px;
+            margin: auto;
+            padding: 20px;
+            background-color: #FFEDB3; /* Softer gold for the form background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        input, button, .dashboard-link {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #FFD700; /* Gold border */
+            border-radius: 5px;
+            box-sizing: border-box; /* Ensures padding doesn't increase width */
+        }
+        button, .dashboard-link {
+            background-color: #c4af38; /* Gold color */
+            color: #ffffff;
+            cursor: pointer;
+            text-align: center;
+            display: block;
+            text-decoration: none;
+        }
+        button:hover, .dashboard-link:hover {
+            background-color: #D4AF37; /* Darker gold on hover */
+        }
+        h2 {
+            text-align: center;
+            color: #D4AF37; /* Dark gold color for heading */
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to Admin Dashboard</h2>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button onclick="login()">Login</button>
+
+        <script src="credentials.js"></script>
+        <!-- Already logged in? Link -->
+        <a href="\dist\admin.html" class="dashboard-link">Already logged in? Proceed to the dashboard</a>
+    </div>
+</body>
+</html>
